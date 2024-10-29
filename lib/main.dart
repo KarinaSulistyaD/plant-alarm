@@ -50,7 +50,7 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             const Text(
-              'tasbih online:',
+              'tasbeh online:',
             ),
             Text(
               '$_counter',
