@@ -85,6 +85,7 @@ class _PlantFormState extends State<PlantForm> {
     _locationController.clear();
     _selectedTime = null;
 
+    // Tampilkan notifikasi
     ScaffoldMessenger.of(context).showSnackBar(
       const SnackBar(content: Text('Data tanaman berhasil disimpan!')),
     );
